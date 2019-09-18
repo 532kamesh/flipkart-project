@@ -7,7 +7,7 @@ do
 	echo "=============================="
     echo "Creating www.gamutkart$i container.."
     sleep 1
-    docker run --name flikart$i -d -it 532kamesh/dckerized-img /bin/bash
+    docker run --name flikart$i -d -it 532kamesh/dockerized-img /bin/bash
     echo "www.gamutkart$i container has been created!"
 	echo "=============================="
 done
